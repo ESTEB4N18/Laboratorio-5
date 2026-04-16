@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App - DOM Moderno</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Lista de Tareas</h1>
+
+    <section class="input-group">
+      <input type="text" id="inputTarea" placeholder="Escriba una tarea...">
+      <button id="btnAgregar" type="button">Agregar</button>
+    </section>
+
+    <p class="mensaje-error" id="mensajeError"></p>
+    <p class="contador" id="contadorPendientes">Tareas pendientes: 0</p>
+
+    <ul class="lista-tareas" id="listaTareas">
+      <li class="vacio" id="mensajeVacio">No hay tareas registradas.</li>
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
